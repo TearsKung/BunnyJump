@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://GFX/Environment/ground_cake_small.png" type="Texture" id=1]
+
+[node name="small cake Land" type="KinematicBody2D"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -84.5932, -50.6931, -29.5774, -49.8129, 10.4742, -50.253, 74.7327, -50.253, 91.4575, -50.253, 100.7, -41.4505, 100.7, -19.8843, 74.7327, 49.6558, -25.1761, 44.3743, -77.1111, 39.0927, -100.878, -21.2046, -98.2372, -41.4505 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
