@@ -2,7 +2,7 @@
 
 [ext_resource path="res://GFX/Environment/ground_sand.png" type="Texture" id=1]
 
-[node name="platform sand" type="StaticBody2D"]
+[node name="platform_sand" type="StaticBody2D"]
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
