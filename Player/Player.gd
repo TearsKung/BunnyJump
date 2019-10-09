@@ -1,10 +1,12 @@
 extends KinematicBody2D
 
 var motion = Vector2(0,0)
-export var Gravity = 30
+export var Gravity = 20
 export var SPEED = 500
 export var jump_power = 700
 var jump_count = 0
+var score = 0
+var Collet_Coin = false
 func _init():
 	pass
 	
@@ -28,6 +30,7 @@ func jump():
 			motion.y = -jump_power
 			$AudioStreamPlayer.play()
 			jump_count = jump_count + 1
+	
 	if is_on_floor():
 		jump_count = 0
 
@@ -50,6 +53,12 @@ func update_animation():
 		$AnimatedSprite.play("idle")
 
 func is_dead():
-	if position.y >1000 :
+	if position.y > 2500 :
 		return true
 	return false
+
+func _on_Node2D_body_entered(body):
+	score = score + 1
+	print(score)
+	
+	
