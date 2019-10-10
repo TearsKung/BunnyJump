@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://colletable/ending.tscn" type="PackedScene" id=1]
+[ext_resource path="res://colletable/Area2D.gd" type="Script" id=2]
+
+[node name="Area2D" index="0" instance=ExtResource( 1 )]
+scale = Vector2( 2.17347, 2.05205 )
+script = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="." index="2"]
+margin_right = 40.0
+margin_bottom = 14.0
+[connection signal="body_entered" from="." to="." method="_on_Area2D_body_entered"]

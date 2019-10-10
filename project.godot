@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="bunnyjump"
-run/main_scene="res://Scenes/Levels/level 1.tscn"
+run/main_scene="res://colletable/start.tscn"
 config/icon="res://icon.png"
 
 [input]
@@ -39,5 +39,5 @@ jump={
 
 [rendering]
 
-environment/default_clear_color=Color( 0, 1, 1, 1 )
+environment/default_clear_color=Color( 0.564706, 0.564706, 0.564706, 1 )
 environment/default_environment="res://default_env.tres"

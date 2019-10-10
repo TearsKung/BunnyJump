@@ -6,7 +6,6 @@ export var SPEED = 500
 export var jump_power = 700
 var jump_count = 0
 var score = 0
-var Collet_Coin = false
 func _init():
 	pass
 	
@@ -60,5 +59,4 @@ func is_dead():
 func _on_Node2D_body_entered(body):
 	score = score + 1
 	print(score)
-	
 	

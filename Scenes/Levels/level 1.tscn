@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Scenes/Levels/level 1.gd" type="Script" id=1]
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=2]
@@ -10,88 +10,83 @@
 [ext_resource path="res://SFX/Chiptune_Adventures_1.ogg" type="AudioStream" id=8]
 [ext_resource path="res://Stand/move small sand land.tscn" type="PackedScene" id=9]
 [ext_resource path="res://Stand/small cake Land.tscn" type="PackedScene" id=10]
+[ext_resource path="res://colletable/Area2D.tscn" type="PackedScene" id=11]
 
 [node name="Lv1" type="Node2D"]
 position = Vector2( 60.3542, 1051.89 )
 script = ExtResource( 1 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 121.583, 301.442 )
+position = Vector2( 132.136, 249.076 )
 
-[node name="main" parent="." instance=ExtResource( 3 )]
-position = Vector2( 76.8403, -838.639 )
+[node name="coin2D2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 927.948, -358.28 )
 
-[node name="coin2D2" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 1594.89, 833.276 )
+[node name="coin2D3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2182.02, 169.301 )
 
-[node name="coin2D3" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 2105.18, 1007.94 )
+[node name="coin2D17" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2770.53, 890.221 )
 
-[node name="coin2D17" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 2693.69, 1728.86 )
+[node name="coin2D23" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2647.92, 895.121 )
 
-[node name="coin2D23" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 2571.08, 1733.76 )
+[node name="coin2D24" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2898.04, 880.411 )
 
-[node name="coin2D24" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 2821.2, 1719.05 )
+[node name="coin2D4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2637.12, -14.001 )
 
-[node name="coin2D4" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 2560.28, 824.638 )
+[node name="coin2D5" parent="." instance=ExtResource( 3 )]
+position = Vector2( 3098.23, 330.111 )
 
-[node name="coin2D5" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 3021.39, 1168.75 )
+[node name="coin2D6" parent="." instance=ExtResource( 3 )]
+position = Vector2( 3785.13, 138.579 )
 
-[node name="coin2D6" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 3708.29, 977.218 )
+[node name="coin2D7" parent="." instance=ExtResource( 3 )]
+position = Vector2( 3656.07, 150.965 )
 
-[node name="coin2D7" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 3579.23, 989.604 )
+[node name="coin2D8" parent="." instance=ExtResource( 3 )]
+position = Vector2( 4278, -8.78796 )
 
-[node name="coin2D8" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 4201.16, 829.851 )
+[node name="coin2D9" parent="." instance=ExtResource( 3 )]
+position = Vector2( 5025.17, -103.914 )
 
-[node name="coin2D9" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 4948.33, 734.725 )
+[node name="coin2D12" parent="." instance=ExtResource( 3 )]
+position = Vector2( 4839.28, -759.572 )
 
-[node name="coin2D12" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 4735.88, -30.9824 )
+[node name="coin2D13" parent="." instance=ExtResource( 3 )]
+position = Vector2( 4967.65, -759.572 )
 
-[node name="coin2D13" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 4864.24, -30.9824 )
+[node name="coin2D14" parent="." instance=ExtResource( 3 )]
+position = Vector2( 3285.73, -891.752 )
 
-[node name="coin2D14" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 3208.89, -53.1128 )
+[node name="coin2D15" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2736.9, -896.178 )
 
-[node name="coin2D15" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 2660.06, -57.5388 )
+[node name="coin2D16" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1569.31, -753.659 )
 
-[node name="coin2D16" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 1492.47, 84.9802 )
+[node name="coin2D20" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1573.51, -619.107 )
 
-[node name="coin2D20" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 1496.67, 219.532 )
+[node name="coin2D22" parent="." instance=ExtResource( 3 )]
+position = Vector2( 791.427, -858.777 )
 
-[node name="coin2D22" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 714.587, -20.1385 )
+[node name="coin2D21" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2153.77, -913.439 )
 
-[node name="coin2D21" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 2076.93, -74.8004 )
+[node name="coin2D18" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1565.1, -896.62 )
 
-[node name="coin2D18" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 1488.26, -57.9814 )
+[node name="coin2D10" parent="." instance=ExtResource( 3 )]
+position = Vector2( 4888.01, -98.751 )
 
-[node name="coin2D19" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 1488.26, -57.9814 )
+[node name="coin2D11" parent="." instance=ExtResource( 3 )]
+position = Vector2( 4741.98, -93.589 )
 
-[node name="coin2D10" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 4811.17, 739.888 )
-
-[node name="coin2D11" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 4665.14, 745.05 )
-
-[node name="coin" parent="main" instance=ExtResource( 3 )]
-position = Vector2( 1048.86, 1110.12 )
+[node name="coin" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1125.7, 271.481 )
 
 [node name="platform_sand" parent="." instance=ExtResource( 4 )]
 editor/display_folded = true
@@ -116,10 +111,10 @@ position = Vector2( 2963.89, -33.8746 )
 position = Vector2( 5543.58, -735.939 )
 
 [node name="platform_cake2" parent="platform_sand" instance=ExtResource( 5 )]
-position = Vector2( 4941.86, -1201.29 )
+position = Vector2( 4926.68, -1072.27 )
 
 [node name="platform_cake4" parent="platform_sand" instance=ExtResource( 5 )]
-position = Vector2( 4632.03, -1196.86 )
+position = Vector2( 4616.85, -1067.84 )
 
 [node name="platform_cake3" parent="platform_sand" instance=ExtResource( 5 )]
 position = Vector2( 3896.8, -1210.87 )
@@ -166,28 +161,35 @@ position = Vector2( 2625.57, 115.744 )
 
 [node name="small cake Land" parent="." instance=ExtResource( 10 )]
 position = Vector2( 3726.6, 376.996 )
-[connection signal="body_entered" from="main" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D2" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D3" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D17" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D23" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D24" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D4" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D5" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D6" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D7" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D8" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D9" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D12" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D13" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D14" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D15" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D16" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D20" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D22" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D21" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D18" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D19" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D10" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin2D11" to="Player" method="_on_Node2D_body_entered"]
-[connection signal="body_entered" from="main/coin" to="Player" method="_on_Node2D_body_entered"]
+
+[node name="Area2D" parent="." instance=ExtResource( 11 )]
+position = Vector2( 73.8124, -781.875 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = -77.1206
+margin_top = -1014.07
+margin_right = 246.879
+margin_bottom = -929.073
+[connection signal="body_entered" from="coin2D2" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D3" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D17" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D23" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D24" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D4" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D5" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D6" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D7" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D8" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D9" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D12" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D13" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D14" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D15" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D16" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D20" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D22" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D21" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D18" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D10" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin2D11" to="Player" method="_on_Node2D_body_entered"]
+[connection signal="body_entered" from="coin" to="Player" method="_on_Node2D_body_entered"]

@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://GFX/Items/portal_yellow.png" type="Texture" id=1]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 42.2313
+
+[node name="Area2D" type="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.360001, 1 )
+texture = ExtResource( 1 )
